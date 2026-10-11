@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "id": "emoji2face",
+  "name": "Emoji 转 QQ 表情",
+  "version": "1.0.0",
+  "description": "基于出站拦截钩子（send_service.before_send），自动将消息中的 Unicode Emoji 转换为 QQ 原生小黄脸表情段",
+  "author": {
+    "name": "Wenaixi",
+    "url": "https://github.com/Wenaixi"
+  },
+  "license": "MIT",
+  "urls": {
+    "repository": "https://github.com/Wenaixi/emoji2face",
+    "homepage": "https://github.com/Wenaixi/emoji2face#readme"
+  },
+  "host_application": {
+    "min_version": "1.0.0",
+    "max_version": "1.99.99"
+  },
+  "sdk": {
+    "min_version": "2.0.0",
+    "max_version": "2.99.99"
+  },
+  "capabilities": [],
+  "plugin_type": "message",
+  "dependencies": []
+}
